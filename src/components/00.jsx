@@ -1,4 +1,5 @@
 import React from "react";
+import IMG from "../assets/VJ.png";
 
 function Section00() {
   return (
@@ -13,7 +14,13 @@ function Section00() {
           In the Garbage{" "}
         </h1>
       </div>
-      <div className="bg-green-500 h-8/10 p-5"></div>
+      <div className="h-8/10 flex justify-center items-center overflow-hidden">
+        <img
+          src={IMG}
+          alt="Decorative"
+          className="w-[200%] h-[180%] object-contain rounded-3xl"
+        />
+      </div>
     </div>
   );
 }
