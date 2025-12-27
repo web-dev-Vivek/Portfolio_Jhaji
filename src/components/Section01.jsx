@@ -13,7 +13,12 @@ function Section01() {
         <p className="font-bold text-6xl lobster">001</p>
         <p className="font-bold text-[20vw] lobster">Hello</p>
       </div>
-      <div className="w-full rounded-3xl bg m-1 h-160 border-1 border-black"></div>
+      <div className="w-full rounded-3xl bg m-1 h-160 border-1 border-black">
+        <div className="w-2/7 border-b-1 border black bg-red-400"></div>
+        <div className="w-2/7 border-b-1 border black bg-green-400"></div>
+        <div className="w-2/7 border-b-1 border black bg-blue-400"></div>
+        <div className="w-1/7"></div>
+      </div>
       <div className="w-full rounded-3xl bg-[#ff3d00] m-1 h-160 "></div>
       <div className="w-full rounded-3xl bg m-1 h-120 border-1 border-black"></div>
       <div className="w-full rounded-3xl bg-[#ff3d00] m-1 h-120 "></div>
