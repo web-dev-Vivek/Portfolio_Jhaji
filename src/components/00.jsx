@@ -5,11 +5,11 @@ function Section00() {
   return (
     <div className="w-full rounded-3xl overflow-hidden h-full border-1 border-black">
       <div className=" flex justify-between h-2/10 p-5">
-        <h1 className="lobster text-3xl ">
+        <h1 className="lobster md:text-3xl ">
           Vivek
           <br /> Jha
         </h1>
-        <h1 className="lobster text-3xl ">
+        <h1 className="lobster md:text-3xl ">
           Piece of Paper <br />
           In the Garbage{" "}
         </h1>

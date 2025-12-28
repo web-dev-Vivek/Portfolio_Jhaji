@@ -4,7 +4,8 @@ import Section01 from "./Section01.jsx";
 
 function RightSection() {
   return (
-    <div className="w-8/10 m-3 h-full ">
+    <div className="md:w-8/10 md:h-screen h-8/9 md:p-2 overflow-y-auto overflow-x-hidden no-scrollbar m-3 ">
+      {" "}
       <Section00 />
       <Section01 />
     </div>

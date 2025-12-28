@@ -12,13 +12,20 @@ function Section01() {
       <div className="w-full flex flex-col justify-between p-5 rounded-3xl bg-[#ff3d00] m-1 h-160 ">
         <p className="font-bold text-6xl lobster">001</p>
         <p className="font-bold text-[20vw] lobster">Hello</p>
+        <div className="h-2/25 w-full flex justify-between items-end text-[#ff3d00] p-3 lobster ">
+          <p className="text-white">(Hello)</p>
+          <p className="text-black">
+            <span className="mb-[2px] mr-[3px]">●</span>001/010
+          </p>
+        </div>
       </div>
+
       <div className="w-full rounded-3xl bg m-1 h-160 border-1 overflow-hidden border-black">
         <div className="w-full h-full pr-10 pl-10">
-          <div className="h-2/7 w-full border-b-1 flex justify-center  text-[12vw] lobster border-black ">
+          <div className="h-2/7 w-full border-b-1 md:flex justify-center  text-[12vw] lobster border-black ">
             I
           </div>
-          <div className="h-2/7 w-full border-b-1 flex justify-between items-center text-[12vw] lobster border-black ">
+          <div className="h-2/7 w-full border-b-1 md:flex justify-between items-center text-[12vw] lobster border-black ">
             <p className="w-2/7 indent-45 text-xl font-normal">
               I build clean, creative web experiences and evolving into a
               MERN-stack developer with AI-powered features.
@@ -28,7 +35,7 @@ function Section01() {
           <div className="h-2/7 text-[#ff3d00] w-full border-b-1 flex justify-start text-[12vw] lobster border-black ">
             Developer
           </div>
-          <div className="h-1/7 w-full flex justify-between text-[#ff3d00] p-3 lobster ">
+          <div className="h-1/7 w-full flex justify-between items-center text-[#ff3d00] p-3 lobster ">
             <p>(Hello)</p>
             <p className="text-black">
               <span className="mb-[2px] mr-[3px]">●</span>001/010
@@ -41,7 +48,7 @@ function Section01() {
           <div className="h-1/27 w-full text-[5vw]"></div>
           <div className="h-2/27 w-full border-b-1 flex justify-between border-black text-[6vw]">
             <div></div>
-            <div className="flex gap-23 items-center">
+            <div className="flex gap-25 items-center">
               <p className="text-xl text-black border-1 border-black p-2 rounded-full">
                 000
               </p>
@@ -91,45 +98,45 @@ function Section01() {
           </div>
         </div>
       </div>
-      <div className="w-full rounded-3xl bg m-1 h-250 p-6 border-1 border-black">
-        <div className="text-[6vw] lobster h-1/16"></div>
-        <div className=" lobster flex justify-between items-center h-2/23">
+      <div className="w-full rounded-3xl bg m-1 h-220 p-6 border-1 border-black">
+        <div className="text-[6vw] lobster h-1/25"></div>
+        <div className=" lobster flex justify-between items-center h-3/25">
           <p className="text-3xl flex justify-start">My Mission</p>
           <p className="text-[6vw]">Building</p>
         </div>
-        <div className="text-[6vw] flex justify-end items-center lobster h-2/23">
+        <div className="text-[6vw] flex justify-end items-center lobster h-3/25">
           <span className="text-[#ff3d00]">creative foundations</span>
         </div>
-        <div className="text-[6vw] lobster flex justify-end h-1/16 ">
+        <div className="text-[6vw] lobster flex justify-end h-1/25 ">
           <div className="text-[6vw] w-4/5 lobster border-b-1 border-black"></div>
         </div>
-        <div className="text-[6vw] lobster h-1/16"></div>
-        <div className=" lobster flex justify-between items-center h-2/23">
+        <div className="text-[6vw] lobster h-1/25"></div>
+        <div className=" lobster flex justify-between items-center h-3/25">
           <p className="text-3xl flex justify-start">Challenge</p>
           <p className="text-[6vw]">breaking</p>
         </div>
-        <div className="text-[6vw] flex justify-end items-center lobster h-2/23">
+        <div className="text-[6vw] flex justify-end items-center lobster h-3/25">
           <span className="text-[#ff3d00]">repetitive design&nbsp;</span>{" "}
           thinking
         </div>
-        <div className="text-[6vw] lobster flex justify-end h-1/16 ">
+        <div className="text-[6vw] lobster flex justify-end h-1/25 ">
           <div className="text-[6vw] w-4/5 lobster border-b-1 border-black"></div>
         </div>
-        <div className="text-[6vw] lobster h-1/16"></div>
-        <div className=" lobster flex justify-between items-center h-2/23">
+        <div className="text-[6vw] lobster h-1/25"></div>
+        <div className=" lobster flex justify-between items-center h-3/25">
           <p className="text-3xl flex justify-start">Goal</p>
           <p className="text-[6vw]">
             and shaping&nbsp;<span className="text-[#ff3d00]">AI-powered,</span>
           </p>
         </div>
-        <div className="text-[6vw] flex justify-end items-center lobster h-2/23">
+        <div className="text-[6vw] flex justify-end items-center lobster h-3/25">
           future-ready&nbsp;
           <span className="text-[#ff3d00]">digital experiences.</span>
         </div>
-        <div className="h-1/16 mt-10 w-full flex justify-between text-[#ff3d00] p-3 lobster ">
-          <p className="text-[#ff3d00]">(Hello)</p>
+        <div className="h-2/25 w-full flex justify-between items-end text-[#ff3d00] p-3 lobster ">
+          <p>(Hello)</p>
           <p className="text-black">
-            <span className="mb-[2px] mr-[3px]">●</span>001/011
+            <span className="mb-[2px] mr-[3px]">●</span>001/010
           </p>
         </div>
       </div>
