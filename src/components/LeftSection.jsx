@@ -17,7 +17,7 @@ const Section = [
 ];
 function LeftSection() {
   return (
-    <div className="w-2/10 md:h-screen h-1/11 md:p-5 no-scrollbar overflow-x-auto md:overflow-y-auto">
+    <div className="w-2/10 md:h-screen h-1/11 bg-[#f4e9e1] md:p-5 no-scrollbar overflow-x-auto md:overflow-y-auto">
       <div className="flex w-full md:sticky fixed bottom-0 overflow-x-auto md:flex-col flex-row ">
         {Section.map((SectionItem, index) => (
           <div
