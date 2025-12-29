@@ -10,7 +10,7 @@ function Section01() {
         </p>
       </div>
       <div className="w-full flex flex-col justify-between p-5 rounded-3xl bg-[#ff3d00] m-1 md:h-160 ">
-        <p className="h-1/7 font-bold text-6xl lobster">001</p>
+        <p className="h-1/7 font-bold text-2xl md:text-6xl lobster">001</p>
         <p className="h-5/7 flex items-end font-bold text-[20vw] lobster">
           Hello
         </p>

@@ -2,6 +2,7 @@ import React from "react";
 import Intro from "./Intro.jsx";
 import Hello from "./Hello.jsx";
 import Flex from "./Flex.jsx";
+import Work from "./Work.jsx";
 
 function RightSection() {
   return (
@@ -10,6 +11,7 @@ function RightSection() {
       <Intro />
       <Hello />
       <Flex />
+      <Work />
     </div>
   );
 }
