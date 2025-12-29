@@ -1,13 +1,15 @@
 import React from "react";
-import Section00 from "./00.jsx";
-import Section01 from "./Section01.jsx";
+import Intro from "./Intro.jsx";
+import Hello from "./Hello.jsx";
+import Flex from "./Flex.jsx";
 
 function RightSection() {
   return (
     <div className="md:w-8/10 md:h-screen h-8/9 md:p-2 overflow-y-auto overflow-x-hidden no-scrollbar p-3 ">
       {" "}
-      <Section00 />
-      <Section01 />
+      <Intro />
+      <Hello />
+      <Flex />
     </div>
   );
 }
