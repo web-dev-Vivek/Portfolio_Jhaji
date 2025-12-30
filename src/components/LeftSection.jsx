@@ -2,9 +2,9 @@ import React from "react";
 const Section = [
   { id: "000", title: "VivekJha", background: "white", textColor: "black" },
   { id: "001", title: "Hello", background: "#ff3d00", textColor: "white" },
-  { id: "010", title: "Flex", background: "#5900cc", textColor: "white" },
+  { id: "010", title: "Flex", background: "#2835f8", textColor: "white" },
   { id: "011", title: "Work", background: "black", textColor: "white" },
-  { id: "100", title: "Services", background: "#ff003D", textColor: "white" },
+  { id: "100", title: "Services", background: "#5900cc", textColor: "white" },
   { id: "101", title: "Process", background: "#ff003D", textColor: "white" },
   { id: "110", title: "Partners", background: "#2835f8", textColor: "white" },
   { id: "111", title: "Contact", background: "#ffff00", textColor: "black" },
