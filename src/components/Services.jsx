@@ -2,12 +2,61 @@ import React, { useState } from "react";
 
 function Services() {
   const services = [
-    { id: 1, description: "websid", title: "Website Design" },
-    { id: 2, description: "ffg", title: "Mobile App Design" },
-    { id: 3, description: "fgdfgfg", title: "Logo Design" },
-    { id: 4, description: "fggfg", title: "Framer Development" },
+    {
+      id: 1,
+      description:
+        "Messy layouts, high bounce rates, and stiff competition? I build sleek, conversion-led sites that turn visitors into fans. Build and Boom.",
+      title: "Website Design",
+    },
+    {
+      id: 2,
+      description:
+        "Clunky flows and confused users? I design thumb-friendly, intuitive interfaces that make navigation effortless. Design, Tap, and Boom.",
+      title: "Mobile App Design",
+    },
+    {
+      id: 3,
+      description:
+        "Forgettable identity in a crowded market? I craft sharp, iconic logos that capture your brand’s soul instantly. Brand and Boom.",
+      title: "Logo Design",
+    },
+    {
+      id: 4,
+      description:
+        "Static designs feeling boring? I add high-end interactions and buttery-smooth animations that bring your site to life. Animate and Boom.",
+      title: "Framer Development",
+    },
   ];
-  const [ActiveID, setActiveID] = useState(null);
+  const [ActiveID, setActiveID] = useState(1);
+
+  const services1 = [
+    {
+      id: 1,
+      description:
+        "Data overload and messy charts? I simplify complex workflows into clean, actionable dashboards that actually make sense. Organize and Boom.",
+      title: "Dashboard Design",
+    },
+    {
+      id: 2,
+      description:
+        "Slow speeds and broken links? I code high-performance, SEO-optimized sites that load in a blink and scale forever. Launch and Boom.",
+      title: "Website Development",
+    },
+    {
+      id: 3,
+      description:
+        "Design-to-code gap? I build pixel-perfect, responsive UI using React and Tailwind that looks stunning on every screen. Code and Boom.",
+      title: "Frontend Development",
+    },
+    {
+      id: 4,
+      description:
+        "Security risks and server crashes? I architect rock-solid APIs and secure databases to keep your business running 24/7. Scale and Boom.",
+      title: "Backend Development",
+    },
+  ];
+  const [ActiveID1, setActiveID1] = useState(1);
+
   return (
     <div className="w-full flex flex-col justify-between mt-3">
       <div className="w-full text-white text-[10px] md:text-sm rounded-3xl flex justify-between pl-4 pr-4 items-center bg-[#5900cc] m-1 h-10 ">
@@ -59,41 +108,113 @@ function Services() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col rounded-2xl overflow-hidden m-1 mt-5 h-100 w-full">
-        <div className="flex h-2/18 flex-row">
+      <div
+        className="flex flex-col rounded-2xl overflow-hidden m-1 mt-5 w-full
+                h-auto md:h-140"
+      >
+        {/* Tabs */}
+        <div className="flex flex-row h-auto md:h-2/18">
           {services.map((service) => (
             <button
               key={service.id}
               onClick={() => setActiveID(service.id)}
-              className={`border-1 border-black text-black rounded-t-2xl flex-1 font-bold text-lg ${
-                ActiveID === service.id ? "border-b-0" : ""
-              }`}
+              className={`border border-black rounded-t-2xl flex-1 font-bold
+          text-sm md:text-lg
+          py-2 md:py-0
+          ${
+            ActiveID === service.id ? "border-b-0 text-[#5900cc]" : "text-black"
+          }`}
             >
               {service.title}
             </button>
           ))}
         </div>
 
-        <div className="w-full border-1 border-t-0 border-black h-16/18 p-4 rounded-b-2xl">
-          {services.find((service) => service.id === ActiveID)?.description}
+        {/* Content box */}
+        <div
+          className="w-full border border-black border-t-0 rounded-b-2xl
+               p-3 md:p-4
+               h-auto md:h-16/18
+               text-xl md:text-7xl lobster
+               indent-0 md:indent-[45px]"
+        >
+          {/* Description */}
+          <div className="mb-6 md:mb-0">
+            {services.find((service) => service.id === ActiveID)?.description}
+          </div>
+
+          {/* Button */}
+          <div className="flex justify-center md:h-5/10 md:justify-center items-center">
+            <button
+              className="border border-[#5900cc]
+                   text-[#5900cc]
+                   rounded-full
+                   px-4 py-2
+                   text-sm md:text-2xl
+                   transform transition-transform duration-500 ease-out
+                   hover:bg-black hover:text-white hover:-translate-y-1"
+            >
+              Book session
+            </button>
+          </div>
         </div>
       </div>
-      <div className="flex flex-col rounded-3xl overflow-hidden m-1 border-1 border-black h-100 w-full">
-        <div className="w-full h-2/15 flex flex-row ">
-          <div className="border-1 border-black flex justify-center items-center font-bold text-lg w-1/4 h-full">
-            Dashboard Design
+
+      <div
+        className="flex flex-col rounded-2xl overflow-hidden m-1 mt-5 w-full
+                h-auto md:h-140"
+      >
+        {/* Tabs */}
+        <div className="flex flex-row h-auto md:h-2/18">
+          {services1.map((service1) => (
+            <button
+              key={service1.id}
+              onClick={() => setActiveID1(service1.id)}
+              className={`border border-black rounded-t-2xl flex-1 font-bold
+          text-sm md:text-lg
+          py-2 md:py-0
+          ${
+            ActiveID1 === service1.id
+              ? "border-b-0 text-[#5900cc]"
+              : "text-black"
+          }`}
+            >
+              {service1.title}
+            </button>
+          ))}
+        </div>
+
+        {/* Content box */}
+        <div
+          className="w-full border border-black border-t-0 rounded-b-2xl
+               p-3 md:p-4
+               h-auto md:h-16/18
+               text-xl md:text-7xl lobster
+               indent-0 md:indent-[45px]"
+        >
+          {/* Description */}
+          <div className="mb-6 md:mb-0">
+            {
+              services1.find((service1) => service1.id === ActiveID1)
+                ?.description
+            }
           </div>
-          <div className="border-1 border-black flex justify-center items-center font-bold text-lg w-1/4 h-full">
-            Website Development
-          </div>
-          <div className="border-1 border-black flex justify-center items-center font-bold text-lg w-1/4 h-full">
-            Frontend Development
-          </div>
-          <div className="border-1 border-black flex justify-center items-center font-bold text-lg w-1/4 h-full">
-            Backend Development
+
+          {/* Button */}
+          <div className="flex justify-center md:h-5/10 md:justify-center items-center">
+            <button
+              className="border border-[#5900cc]
+                   text-[#5900cc]
+                   rounded-full
+                   px-4 py-2
+                   text-sm md:text-2xl
+                   transform transition-transform duration-500 ease-out
+                   hover:bg-black hover:text-white hover:-translate-y-1"
+            >
+              Book session
+            </button>
           </div>
         </div>
-        <div className="w-full h-13/15"></div>
       </div>
     </div>
   );
