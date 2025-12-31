@@ -38,7 +38,7 @@ function Tab1() {
           <button
             key={service.id}
             onClick={() => setActiveID(service.id)}
-            className={`border border-black rounded-t-2xl flex-1 font-bold
+            className={`border-1 border-black rounded-t-2xl flex-1 font-bold
           text-sm md:text-lg
           py-2 md:py-0
           ${
@@ -52,10 +52,10 @@ function Tab1() {
 
       <div
         className="w-full border border-black border-t-0 rounded-b-2xl
-               p-3 md:p-4
+                md:p-4
                h-auto md:h-16/18
                text-xl md:text-7xl lobster
-               indent-0 md:indent-[45px]"
+               indent-0 md:indent-[250px]"
       >
         <div className="mb-6 md:mb-0">
           {services.find((service) => service.id === ActiveID)?.description}
