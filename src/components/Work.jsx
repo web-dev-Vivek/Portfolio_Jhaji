@@ -1,5 +1,9 @@
 import React from "react";
 import Arrow from "/Arrow.svg";
+import IMG1 from "/IMG1.png";
+import IMG2 from "/IMG2.png";
+import IMG3 from "/IMG3.png";
+import IMG4 from "/IMG4.png";
 
 function Work() {
   return (
@@ -69,6 +73,17 @@ function Work() {
               className="h-4 w-4 md:group-hover:translate-x-7 group-hover:translate-x-1 transition-transform duration-500"
             />
           </p>
+        </div>
+      </div>
+      <div className="relative w-full overflow-hidden bg-white">
+        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-[#f4e9e1] to-transparent" />
+        <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-[#f4e9e1] to-transparent" />
+
+        <div className="flex w-max animate-marquee gap-8">
+          <img src={IMG1} className="h-40 w-auto object-cover" />
+          <img src={IMG2} className="h-40 w-auto object-cover" />
+          <img src={IMG3} className="h-40 w-auto object-cover" />
+          <img src={IMG4} className="h-40 w-auto object-cover" />
         </div>
       </div>
     </div>
