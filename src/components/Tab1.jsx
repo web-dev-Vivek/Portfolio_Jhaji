@@ -27,7 +27,7 @@ function Tab1() {
       title: "Framer Development",
     },
   ];
-  const [ActiveID, setActiveID] = useState(1);
+  const [ActiveID, setActiveID] = useState(0);
   return (
     <div
       className="hidden md:flex flex-col rounded-2xl overflow-hidden m-1 mt-5 w-full
