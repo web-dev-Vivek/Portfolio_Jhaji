@@ -55,7 +55,7 @@ function Tab2() {
                p-3 md:p-4
                h-auto md:h-16/18
                text-xl md:text-7xl lobster
-               indent-0 md:indent-[250px]"
+               indent-0 md:indent-[90px]"
       >
         <div className="mb-6 md:mb-0">
           {services.find((service) => service.id === ActiveID)?.description}
