@@ -75,15 +75,19 @@ function Work() {
           </p>
         </div>
       </div>
-      <div className="relative w-full overflow-hidden bg-white">
-        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-[#f4e9e1] to-transparent" />
-        <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-[#f4e9e1] to-transparent" />
+      <div className="relative w-full m-2 overflow-hidden">
+        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-5 bg-gradient-to-r from-[#f4e9e1] to-transparent" />
+        <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-5 bg-gradient-to-l from-[#f4e9e1] to-transparent" />
 
         <div className="flex w-max animate-marquee gap-8">
-          <img src={IMG1} className="h-40 w-auto object-cover" />
-          <img src={IMG2} className="h-40 w-auto object-cover" />
-          <img src={IMG3} className="h-40 w-auto object-cover" />
-          <img src={IMG4} className="h-40 w-auto object-cover" />
+          <img src={IMG1} className="h-40 rounded-2xl w-auto object-cover" />
+          <img src={IMG2} className="h-40 rounded-2xl w-auto object-cover" />
+          <img src={IMG3} className="h-40 rounded-2xl w-auto object-cover" />
+          <img src={IMG4} className="h-40 rounded-2xl w-auto object-cover" />
+          <img src={IMG1} className="h-40 rounded-2xl w-auto object-cover" />
+          <img src={IMG2} className="h-40 rounded-2xl w-auto object-cover" />
+          <img src={IMG3} className="h-40 rounded-2xl w-auto object-cover" />
+          <img src={IMG4} className="h-40 rounded-2xl w-auto object-cover" />
         </div>
       </div>
     </div>
