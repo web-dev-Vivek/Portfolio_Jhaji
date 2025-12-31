@@ -27,7 +27,7 @@ function TAB2Small() {
       title: "Backend Development",
     },
   ];
-  const [ActiveID, setActiveID] = useState(1);
+  const [ActiveID, setActiveID] = useState(0);
   return (
     <div
       className="md:hidden flex flex-col rounded-2xl overflow-hidden m-1 mt-5 w-full
