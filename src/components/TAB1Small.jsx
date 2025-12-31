@@ -27,10 +27,10 @@ function TAB1Small() {
       title: "Framer Development",
     },
   ];
-  const [ActiveID, setActiveID] = useState(1);
+  const [ActiveID, setActiveID] = useState(0);
   return (
     <div
-      className="md:hidden flex flex-col rounded-2xl overflow-hidden m-1 mt-5 w-full
+      className="md:hidden flex flex-col rounded-2xl overflow-hidden m-1 mb-0 w-full
                 h-auto md:h-140"
     >
       <div className="flex flex-col h-auto md:h-2/18">
@@ -39,12 +39,12 @@ function TAB1Small() {
             <button
               key={service.id}
               onClick={() => setActiveID(service.id)}
-              className={`border-1 border-b-0 mt-1 lobster border-black  flex-1 font-bold
+              className={`border-1 mt-1 lobster border-black  flex-1 font-bold
           text-sm md:text-lg
           py-2 md:py-0
           ${
             ActiveID === service.id
-              ? "rounded-t-2xl text-[#5900cc] "
+              ? "rounded-t-2xl text-[#5900cc] border-b-0 "
               : "rounded-2xl text-black"
           }`}
             >
