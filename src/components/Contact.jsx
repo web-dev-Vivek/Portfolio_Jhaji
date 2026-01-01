@@ -33,7 +33,7 @@ function Contact() {
           Idea.
         </div>
         <div className="h-2/12 w-full flex justify-between items-end text-[#ffff00] p-3 lobster ">
-          <p className="text-black">(Partners)</p>
+          <p className="text-black">(Contact)</p>
           <p className="text-black">
             <span className="mb-[2px] mr-[3px]">●</span>110/110
           </p>
@@ -41,7 +41,11 @@ function Contact() {
       </div>
       <div className="md:h-170 flex border-1 p-5 justify-center border-black m-1 rounded-3xl">
         <div className="w-2/5 m-1 hidden md:flex overflow-hidden border-1 rounded-3xl border-black">
-          <img src="/contact2.jpg" alt="" />
+          <img
+            className="object-cover w-full h-full"
+            src="/contact2.jpg"
+            alt=""
+          />
         </div>
         <div className="md:w-3/5 m-1 border-1 flex-col rounded-3xl p-3 flex md:flex-col justify-center items-center border-black">
           <a
