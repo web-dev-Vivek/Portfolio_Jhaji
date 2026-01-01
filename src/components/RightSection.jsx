@@ -18,7 +18,7 @@ function RightSection() {
       <Work />
       <Service />
       <Process />
-      <Partners />
+      {/* <Partners /> */}
       <Contact />
     </div>
   );

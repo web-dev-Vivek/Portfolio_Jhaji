@@ -27,10 +27,10 @@ function Partners() {
         </div>
       </div>
       <div className="w-full rounded-3xl m-1 md:h-100 p-6 border-1 border-black">
-        <h1 className="text-5xl h-1/5 lobster flex justify-center">
+        <h1 className="md:text-5xl text-2xl h-1/5 lobster flex justify-center items-center">
           Need More Proofs??
         </h1>
-        <div className="relative h-4/5 flex items-center w-full m-2 overflow-hidden">
+        <div className="relative h-4/5 flex items-center w-full m-2 md:mt-0 mt-10 overflow-hidden">
           <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-5 bg-gradient-to-r from-[#f4e9e1] to-transparent" />
           <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-5 bg-gradient-to-l from-[#f4e9e1] to-transparent" />
 

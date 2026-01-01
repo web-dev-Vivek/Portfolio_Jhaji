@@ -6,7 +6,7 @@ const Section = [
   { id: "011", title: "Work", background: "black", textColor: "white" },
   { id: "100", title: "Services", background: "#5900cc", textColor: "white" },
   { id: "101", title: "Process", background: "#ff003D", textColor: "white" },
-  { id: "110", title: "Partners", background: "#2835f8", textColor: "white" },
+  // { id: "110", title: "Partners", background: "#2835f8", textColor: "white" },
   { id: "111", title: "Contact", background: "#ffff00", textColor: "black" },
 ];
 function LeftSection() {
