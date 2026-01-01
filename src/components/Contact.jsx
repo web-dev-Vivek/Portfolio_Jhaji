@@ -15,13 +15,30 @@ function Contact() {
           Contact
         </p>
         <div className="h-1/7 w-full flex justify-between items-end text-[#ffff00] p-3 lobster ">
-          <p className="text-white">(Contact)</p>
+          <p className="text-black">(Contact)</p>
           <p className="text-black">
             <span className="mb-[2px] mr-[3px]">●</span>110/110
           </p>
         </div>
       </div>
-      <div className="md:h-130 "></div>
+      <div className="md:h-130 border-1 p-5 border-black m-1 rounded-3xl">
+        <div className="h-1/12 "></div>
+        <div className="h-3/12 border-b-1 border-black md:text-9xl p-3 flex justify-Start items-center lobster">
+          Let's
+        </div>
+        <div className="h-3/12 border-b-1 border-black md:text-9xl p-3 flex justify-center items-center lobster">
+          Execute Your
+        </div>
+        <div className="h-3/12 border-b-1 border-black md:text-9xl p-3 flex justify-end items-center lobster">
+          Idea
+        </div>
+        <div className="h-2/12 w-full flex justify-between items-end text-[#ffff00] p-3 lobster ">
+          <p className="text-black">(Partners)</p>
+          <p className="text-black">
+            <span className="mb-[2px] mr-[3px]">●</span>110/110
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
