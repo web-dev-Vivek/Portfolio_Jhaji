@@ -4,6 +4,9 @@ import Hello from "./Hello.jsx";
 import Flex from "./Flex.jsx";
 import Work from "./Work.jsx";
 import Service from "./Services.jsx";
+import Process from "./Process.jsx";
+import Partners from "./Partners.jsx";
+import Contact from "./Contact.jsx";
 
 function RightSection() {
   return (
@@ -14,6 +17,9 @@ function RightSection() {
       <Flex />
       <Work />
       <Service />
+      <Process />
+      <Partners />
+      <Contact />
     </div>
   );
 }

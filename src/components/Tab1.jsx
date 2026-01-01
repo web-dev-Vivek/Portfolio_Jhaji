@@ -38,7 +38,7 @@ function Tab1() {
           <button
             key={service.id}
             onClick={() => setActiveID(service.id)}
-            className={`border-1 border-black rounded-t-2xl flex-1 font-bold
+            className={`border-1 cursor-pointer border-black rounded-t-2xl flex-1 font-bold
           text-sm md:text-lg
           py-2 md:py-0
           ${

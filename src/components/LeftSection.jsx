@@ -8,12 +8,6 @@ const Section = [
   { id: "101", title: "Process", background: "#ff003D", textColor: "white" },
   { id: "110", title: "Partners", background: "#2835f8", textColor: "white" },
   { id: "111", title: "Contact", background: "#ffff00", textColor: "black" },
-  {
-    id: "111",
-    title: "Unusual index",
-    background: "#05ff00",
-    textColor: "black",
-  },
 ];
 function LeftSection() {
   return (

@@ -33,12 +33,12 @@ function Tab2() {
       className="hidden md:flex flex-col rounded-2xl overflow-hidden m-1 mt-5 w-full
                 h-auto md:h-140"
     >
-      <div className="flex flex-row h-auto md:h-2/18">
+      <div className="flex flex-row  h-auto md:h-2/18">
         {services.map((service) => (
           <button
             key={service.id}
             onClick={() => setActiveID(service.id)}
-            className={`border border-black rounded-t-2xl flex-1 font-bold
+            className={`border cursor-pointer border-black rounded-t-2xl flex-1 font-bold
           text-sm md:text-lg
           py-2 md:py-0
           ${
@@ -60,12 +60,12 @@ function Tab2() {
         <div className="mb-6 md:mb-0">
           {services.find((service) => service.id === ActiveID)?.description}
         </div>
-        <div className="flex justify-center md:h-5/10 md:justify-center items-center">
+        <div className="flex justify-center md:h-4/10 md:justify-center items-center">
           <button
             className="border border-[#5900cc]
                    text-[#5900cc]
                    rounded-full
-                   px-4 py-2
+                   px-4
                    text-sm md:text-2xl
                    transform transition-transform duration-500 ease-out
                    hover:bg-black hover:text-white hover:border-none hover:-translate-y-1"

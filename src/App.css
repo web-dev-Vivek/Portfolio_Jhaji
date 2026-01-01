@@ -10,6 +10,9 @@ body,
 .lobster {
   font-family: "Lobster Two", cursive;
 }
+.para {
+  font-family: "Inter", sans-serif;
+}
 /* Custom marquee animation */
 @layer utilities {
   @keyframes marquee {
