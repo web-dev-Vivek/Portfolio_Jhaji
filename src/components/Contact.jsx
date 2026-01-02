@@ -55,7 +55,9 @@ function Contact() {
                 gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
             >
               <img src="/images.png" className="w-10 rounded-full" />
-              <span className="lobster text-xl text-black">@Vivek_Jha</span>
+              <span className="lobster  text-sm md:text-xl text-black">
+                @Vivek_Jha
+              </span>
             </a>
 
             <a
@@ -64,7 +66,7 @@ function Contact() {
               gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
             >
               <img src="/insta.png" className="w-10 rounded-full" />
-              <span className="lobster text-xl text-black">
+              <span className="lobster  text-sm md:text-xl text-black">
                 @Vocalist_Vivek
               </span>
             </a>
@@ -75,7 +77,9 @@ function Contact() {
                   gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
             >
               <img src="/x.jpg" className="w-10 rounded-full" />
-              <span className="lobster text-xl text-black">@Web_Dev_Vivek</span>
+              <span className="lobster  text-sm md:text-xl text-black">
+                @Web_Dev_Vivek
+              </span>
             </a>
           </div>
         </div>
