@@ -24,7 +24,7 @@ function Work() {
         <div className="h-1/7 w-full flex justify-between items-end text-[#5900cc] p-3 lobster ">
           <p className="text-white">(Work)</p>
           <p className="text-white">
-            <span className="mb-[2px] mr-[3px]">●</span>001/001
+            <span className="mb-[2px] mr-[3px]">●</span>011/001
           </p>
         </div>
       </div>

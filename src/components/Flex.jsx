@@ -17,7 +17,7 @@ function Section02() {
         <div className="h-1/7 w-full flex justify-between items-end text-[#2835f8] p-3 lobster ">
           <p className="text-white">(Flex)</p>
           <p className="text-black">
-            <span className="mb-[2px] mr-[3px]">●</span>001/001
+            <span className="mb-[2px] mr-[3px]">●</span>010/001
           </p>
         </div>
       </div>
@@ -63,7 +63,7 @@ function Section02() {
           <div className="h-1/7 w-full flex justify-between items-center text-[#2835f8] p-3 lobster ">
             <p>(Flex)</p>
             <p className="text-black">
-              <span className="mb-[2px] mr-[3px]">●</span>001/010
+              <span className="mb-[2px] mr-[3px]">●</span>010/010
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ function Section02() {
         <div className="h-1/8 w-full flex justify-between items-center text-[#2835f8] p-3 lobster ">
           <p>(Flex)</p>
           <p className="text-black">
-            <span className="mb-[2px] mr-[3px]">●</span>001/010
+            <span className="mb-[2px] mr-[3px]">●</span>010/011
           </p>
         </div>
       </div>

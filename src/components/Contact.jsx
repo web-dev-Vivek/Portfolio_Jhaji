@@ -17,7 +17,7 @@ function Contact() {
         <div className="h-1/7 w-full flex justify-between items-end text-[#ffff00] p-3 lobster ">
           <p className="text-black">(Contact)</p>
           <p className="text-black">
-            <span className="mb-[2px] mr-[3px]">●</span>110/110
+            <span className="mb-[2px] mr-[3px]">●</span>110/001
           </p>
         </div>
       </div>
@@ -35,52 +35,55 @@ function Contact() {
         <div className="h-2/12 w-full flex justify-between items-end text-[#ffff00] p-3 lobster ">
           <p className="text-black">(Contact)</p>
           <p className="text-black">
-            <span className="mb-[2px] mr-[3px]">●</span>110/110
+            <span className="mb-[2px] mr-[3px]">●</span>110/010
           </p>
         </div>
       </div>
-      <div className="md:h-170 flex border-1 p-5 justify-center border-black m-1 rounded-3xl">
-        <div className="w-2/5 m-1 hidden md:flex overflow-hidden border-1 rounded-3xl border-black">
+      <div className="md:h-150 flex-row border-1 p-5 justify-center border-black m-1 rounded-3xl">
+        <div className="relative w-full h-9/10 rounded-3xl overflow-hidden border-1 border-black">
+          {/* IMAGE */}
           <img
-            className="object-cover w-full h-full"
             src="/contact2.jpg"
             alt=""
+            className="w-full h-full object-cover"
           />
+
+          <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center gap-6">
+            <a
+              href="https://www.linkedin.com/in/vivek-jha-17ba6a306/"
+              className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
+                gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
+            >
+              <img src="/images.png" className="w-10 rounded-full" />
+              <span className="lobster text-xl text-black">@Vivek_Jha</span>
+            </a>
+
+            <a
+              href="https://www.instagram.com/vocalist_vivek/"
+              className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
+              gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
+            >
+              <img src="/insta.png" className="w-10 rounded-full" />
+              <span className="lobster text-xl text-black">
+                @Vocalist_Vivek
+              </span>
+            </a>
+
+            <a
+              href="https://x.com/web_dev_vivek"
+              className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
+                  gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
+            >
+              <img src="/x.jpg" className="w-10 rounded-full" />
+              <span className="lobster text-xl text-black">@Web_Dev_Vivek</span>
+            </a>
+          </div>
         </div>
-        <div className="md:w-3/5 m-1 border-1 flex-col rounded-3xl p-3 flex md:flex-col justify-center items-center border-black">
-          <a
-            href="https://www.linkedin.com/in/vivek-jha-17ba6a306/"
-            className="h-2/10 border-1 flex justify-between md:p-10 p-3 hover:bg-[#ffff00] lobster md:text-3xl items-center border-black m-1 w-full rounded-3xl"
-          >
-            <img
-              className="md:w-20 w-8 rounded-full "
-              src="/images.png"
-              alt=""
-            />
-            <a href="https://www.linkedin.com/in/vivek-jha-17ba6a306/">
-              @Vivek jha
-            </a>
-          </a>
-          <a
-            href="https://www.instagram.com/vocalist_vivek/"
-            className="h-2/10 border-1 flex  justify-between md:p-10 p-3 hover:bg-[#ffff00] lobster md:text-3xl items-center border-black m-1 w-full rounded-3xl"
-          >
-            <img
-              className="md:w-20 w-8 rounded-full "
-              src="/insta.png"
-              alt=""
-            />
-            <a href="https://www.instagram.com/vocalist_vivek/">
-              @Vocalist_Vivek
-            </a>
-          </a>
-          <a
-            href="https://x.com/web_dev_vivek"
-            className="h-2/10 border-1 flex justify-between md:p-10 p-3 hover:bg-[#ffff00] lobster md:text-3xl items-center border-black m-1 w-full rounded-3xl"
-          >
-            <img className="md:w-20 w-8 rounded-full " src="/x.jpg" alt="" />
-            <a href="https://x.com/web_dev_vivek">@Web_Dev_Vivek</a>
-          </a>
+        <div className="h-1/10  w-full flex justify-between items-end text-[#ffff00] p-3 lobster ">
+          <p className="text-black">(Contact)</p>
+          <p className="text-black">
+            <span className="mb-[2px] mr-[3px]">●</span>110/011
+          </p>
         </div>
       </div>
     </div>
