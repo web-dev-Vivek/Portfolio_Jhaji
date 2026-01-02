@@ -81,6 +81,16 @@ function Contact() {
                 @Web_Dev_Vivek
               </span>
             </a>
+            <a
+              href="https://x.com/web_dev_vivek"
+              className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
+                  gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
+            >
+              <img src="/gmail.png" className="w-10 rounded-full" />
+              <span className="lobster  text-sm md:text-xl text-black">
+                Progamervivek2020@gmail.com
+              </span>
+            </a>
           </div>
         </div>
         <div className="h-1/10  w-full flex justify-between items-end text-[#ffff00] p-3 lobster ">
