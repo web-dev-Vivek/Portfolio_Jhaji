@@ -10,16 +10,31 @@ import Contact from "./Contact.jsx";
 
 function RightSection() {
   return (
-    <div className="md:w-8/10 md:h-screen h-10/11 md:p-2 overflow-y-auto overflow-x-hidden no-scrollbar p-3 ">
-      {" "}
-      <Intro />
-      <Hello />
-      <Flex />
-      <Work />
-      <Service />
-      <Process />
-      {/* <Partners /> */}
-      <Contact />
+    <div
+      id="right-scroll"
+      className="md:w-8/10 md:h-screen overflow-y-auto no-scrollbar p-3"
+    >
+      <div id="000">
+        <Intro />
+      </div>
+      <div id="001">
+        <Hello />
+      </div>
+      <div id="010">
+        <Flex />
+      </div>
+      <div id="011">
+        <Work />
+      </div>
+      <div id="100">
+        <Service />
+      </div>
+      <div id="101">
+        <Process />
+      </div>
+      <div id="111">
+        <Contact />
+      </div>
     </div>
   );
 }

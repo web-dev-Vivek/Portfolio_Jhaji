@@ -10,21 +10,34 @@ const Section = [
   { id: "111", title: "Contact", background: "#ffff00", textColor: "black" },
 ];
 function LeftSection() {
+  const scrollToSection = (id) => {
+    const container = document.getElementById("right-scroll");
+    const target = document.getElementById(id);
+
+    if (!container || !target) return;
+
+    container.scrollTo({
+      top: target.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div className="w-2/10 md:h-screen h-1/11 bg-[#f4e9e1] md:p-5 no-scrollbar overflow-x-auto md:overflow-y-auto">
+    <div className="w-2/10 z-99 md:z-0 md:h-screen h-1/11 bg-[#f4e9e1] md:p-5 no-scrollbar overflow-x-auto md:overflow-y-auto">
       <div className="flex w-full md:sticky fixed bg-[#f4e9e1] bottom-0 overflow-x-auto md:flex-col flex-row ">
-        {Section.map((SectionItem, index) => (
+        {Section.map((item) => (
           <div
-            key={index}
+            key={item.id}
+            onClick={() => scrollToSection(item.id)}
+            className="cursor-pointer lobster m-1 p-4 rounded-4xl"
             style={{
-              backgroundColor: SectionItem.background,
-              color: SectionItem.textColor,
+              backgroundColor: item.background,
+              color: item.textColor,
             }}
-            className="lobster md:p-5 md:mb-2 md:mr-0 m-1 rounded-4xl md:h-full "
           >
-            <div className="flex md:w-full md:h-full w-40 md:p-0 justify-between p-3 md:flex-col md:gap-10">
-              <h2 className="text-sm md:text-lg">{SectionItem.id}</h2>
-              <h1 className="text-sm md:text-2xl">{SectionItem.title}</h1>
+            <div className="flex md:w-full md:h-full w-40  md:p-0 justify-between md:p-3 md:flex-col md:gap-10">
+              <h2>{item.id}</h2>
+              <h1>{item.title}</h1>
             </div>
           </div>
         ))}
