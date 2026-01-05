@@ -51,6 +51,7 @@ function Contact() {
           <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center gap-6">
             <a
               href="https://www.linkedin.com/in/vivek-jha-17ba6a306/"
+              target="_blank"
               className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
                 gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
             >
@@ -62,6 +63,7 @@ function Contact() {
 
             <a
               href="https://www.instagram.com/vocalist_vivek/"
+              target="_blank"
               className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
               gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
             >
@@ -73,6 +75,7 @@ function Contact() {
 
             <a
               href="https://x.com/web_dev_vivek"
+              target="_blank"
               className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
                   gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
             >
@@ -82,7 +85,8 @@ function Contact() {
               </span>
             </a>
             <a
-              href="https://x.com/web_dev_vivek"
+              href="mailto:progamervivek2020@gmail.com"
+              target="_blank"
               className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
                   gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
             >
