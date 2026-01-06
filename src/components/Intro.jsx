@@ -3,7 +3,7 @@ import IMG from "../assets/VJ.png";
 
 function Section00() {
   return (
-    <div className="w-full rounded-3xl overflow-hidden md:h-full border-1 border-black">
+    <div className="w-full h-screen rounded-3xl overflow-hidden md:h-full border-1 border-black">
       <div className=" flex justify-between h-2/10 p-5">
         <h1 className="lobster md:text-3xl ">
           Vivek
@@ -18,7 +18,7 @@ function Section00() {
         <img
           src={IMG}
           alt="Decorative"
-          className="w-[200%] h-[180%] object-contain rounded-3xl"
+          className="w-150 h-150 object-contain rounded-3xl"
         />
       </div>
     </div>
