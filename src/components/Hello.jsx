@@ -75,61 +75,75 @@ function Section01() {
         </div>
       </div>
 
-      <div className="w-full lobster rounded-3xl bg-[#ff3d00] m-1 md:h-350 overflow-hidden ">
-        <div className="w-full h-full pl-6 pr-6 text-white">
-          <div className="h-1/27 w-full text-[5vw]"></div>
-          <div className="h-2/27 w-full border-b-1 flex justify-between border-black text-[6vw]">
-            <div></div>
-            <div className="flex gap-25 mt-5 md:mt-0 items-center">
-              <p className="md:text-xl text-sm text-black border-1 border-black md:p-2 p-1 rounded-full">
+      <div className="w-full lobster rounded-3xl bg-[#ff3d00] m-1 overflow-hidden">
+        <div className="w-full px-4 md:px-6 py-6 text-white space-y-8">
+          {/* Block 1 */}
+          <div className="border-b border-black pb-4">
+            <div className="flex justify-between items-center flex-wrap gap-4">
+              <p className="text-black border border-black px-3 py-1 rounded-full text-sm md:text-xl">
                 000
               </p>
-              <p>Product design should feel</p>
+              <p className="text-[5vw] sm:text-[4vw] md:text-[2.5vw]">
+                Product design should feel
+              </p>
             </div>
-          </div>
-          <div className="h-2/27 w-full border-b-1 flex justify-center  border-black text-[6vw]">
-            creative, intentional, and driven by
-          </div>
-          <div className="h-2/27 w-full flex justify-start  text-[6vw]">
-            real user experiences.
-          </div>
-          <div className="h-2/27 w-full text-[5vw]"></div>
-          <div className="h-2/27 w-full mt-5 md:mt-0 border-b-1 flex justify-evenly items-center border-black ">
-            <p className="md:text-xl text-sm text-black border-1 border-black md:p-2 p-1 rounded-full">
-              001
+
+            <p className="mt-2 text-[5vw] sm:text-[4vw] md:text-[2.5vw] text-center">
+              creative, intentional, and driven by
             </p>
-            <p className="text-[6vw] ">Over-optimization kills</p>
-          </div>
-          <div className="h-2/27 w-full border-b-1 border-black text-[6vw]">
-            originality;meaningful innovation
-          </div>
-          <div className="h-2/27 w-full border-b-1 flex justify-start border-black text-[6vw]">
-            comes from experimentation,not
-          </div>
-          <div className="h-2/27 w-full flex justify-start  text-[6vw]">
-            playing safe.
-          </div>
-          <div className="h-2/27 w-full text-[5vw]"></div>
-          <div className="h-2/27 w-full border-b-1 mt-5 md:mt-0 flex justify-evenly items-center border-black ">
-            <p className="md:text-xl text-sm text-black border-1 border-black md:p-2 p-1 rounded-full">
-              010
+            <p className="text-[5vw] sm:text-[4vw] md:text-[2.5vw]">
+              real user experiences.
             </p>
-            <p className="text-[6vw]">When everything looks</p>
           </div>
-          <div className="h-2/27 w-full border-b-1 border-black text-[6vw]">
-            the same, creative differentiation
+
+          {/* Block 2 */}
+          <div className="border-b border-black pb-4 space-y-2">
+            <div className="flex justify-evenly items-center flex-wrap gap-4">
+              <p className="text-black border border-black px-3 py-1 rounded-full text-sm md:text-xl">
+                001
+              </p>
+              <p className="text-[5vw] sm:text-[4vw] md:text-[2.5vw]">
+                Over-optimization kills
+              </p>
+            </div>
+
+            <p className="text-[5vw] sm:text-[4vw] md:text-[2.5vw]">
+              originality; meaningful innovation
+            </p>
+            <p className="text-[5vw] sm:text-[4vw] md:text-[2.5vw]">
+              comes from experimentation, not playing safe.
+            </p>
           </div>
-          <div className="h-2/27 w-full text-[6vw]">
-            becomes the strongest advantage.
+
+          {/* Block 3 */}
+          <div className="border-b border-black pb-4 space-y-2">
+            <div className="flex justify-evenly items-center flex-wrap gap-4">
+              <p className="text-black border border-black px-3 py-1 rounded-full text-sm md:text-xl">
+                010
+              </p>
+              <p className="text-[5vw] sm:text-[4vw] md:text-[2.5vw]">
+                When everything looks
+              </p>
+            </div>
+
+            <p className="text-[5vw] sm:text-[4vw] md:text-[2.5vw]">
+              the same, creative differentiation
+            </p>
+            <p className="text-[5vw] sm:text-[4vw] md:text-[2.5vw]">
+              becomes the strongest advantage.
+            </p>
           </div>
-          <div className="h-2/27 w-full flex md:mt-0 mt-5 justify-between text-[#ff3d00] p-3 lobster ">
+
+          {/* Footer */}
+          <div className="flex justify-between items-center pt-4">
             <p className="text-white">(Hello)</p>
             <p className="text-black">
-              <span className="mb-[2px] mr-[3px]">●</span>001/011
+              <span className="mr-1">●</span>001/011
             </p>
           </div>
         </div>
       </div>
+
       <div className="w-full rounded-3xl bg m-1 md:h-220 p-6 border-1 border-black">
         <div className="text-[6vw] lobster h-1/25"></div>
         <div className=" lobster flex justify-between items-center h-3/25">

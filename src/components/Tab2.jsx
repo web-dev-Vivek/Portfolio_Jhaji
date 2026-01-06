@@ -51,8 +51,8 @@ function Tab2() {
       </div>
 
       <div
-        className="w-full border border-black border-t-0 rounded-b-2xl
-               p-3 md:p-4
+        className="w-full border flex justify-center items-center border-black border-t-0 rounded-b-2xl
+                md:p-4
                h-auto md:h-16/18
                text-xl md:text-7xl lobster
                indent-0 md:indent-[90px]"
@@ -60,7 +60,7 @@ function Tab2() {
         <div className="mb-6 md:mb-0">
           {services.find((service) => service.id === ActiveID)?.description}
         </div>
-        <div className="flex justify-center md:h-4/10 md:justify-center items-center">
+        <div className="flex justify-center md:h-2/18 md:justify-center items-center">
           <button
             className="border border-[#5900cc]
                    text-[#5900cc]
