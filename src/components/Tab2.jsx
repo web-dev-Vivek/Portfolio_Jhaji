@@ -51,21 +51,21 @@ function Tab2() {
       </div>
 
       <div
-        className="w-full border flex justify-center items-center border-black border-t-0 rounded-b-2xl
+        className="w-full border flex flex-col justify-center items-center border-black border-t-0 rounded-b-2xl
                 md:p-4
-               h-auto md:h-16/18
+               md:h-full
                text-xl md:text-7xl lobster
                indent-0 md:indent-[90px]"
       >
-        <div className="mb-6 md:mb-0">
+        <div className="mb-6 h-auto flex items-center justify-center md:h-14/18 md:mb-0">
           {services.find((service) => service.id === ActiveID)?.description}
         </div>
-        <div className="flex justify-center md:h-2/18 md:justify-center items-center">
+        <div className="flex justify-center md:h-4/18 md:justify-center items-center">
           <button
             className="border border-[#5900cc]
                    text-[#5900cc]
                    rounded-full
-                   px-4
+                   px-4 py-2
                    text-sm md:text-2xl
                    transform transition-transform duration-500 ease-out
                    hover:bg-black hover:text-white hover:border-none hover:-translate-y-1"
