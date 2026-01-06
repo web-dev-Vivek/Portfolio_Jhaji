@@ -22,31 +22,59 @@ function Section01() {
         </div>
       </div>
 
-      <div className="w-full rounded-3xl bg m-1 md:h-160 border-1 overflow-hidden border-black">
-        <div className="w-full h-full pr-10 pl-10">
-          <div className="h-2/7 w-full border-b-1 md:flex flex justify-end md:justify-center text-[12vw] lobster border-black ">
+      <div className="w-full rounded-3xl bg m-1 border border-black overflow-hidden">
+        <div className="w-full h-full px-4 md:px-10 py-6">
+          {/* I */}
+          <div
+            className="w-full border-b border-black flex justify-end md:justify-center
+                    text-[18vw] sm:text-[14vw] md:text-[10vw] lobster leading-none"
+          >
             I
           </div>
-          <div className="h-2/7 w-full border-b-1 flex justify-evenly items-center text-[12vw] lobster border-black ">
-            <p className="md:w-2/7 w-4/7 md:indent-45 text-[10px] md:text-xl font-normal">
+
+          {/* AM Section */}
+          <div
+            className="w-full border-b border-black flex flex-col md:flex-row
+                    justify-between items-center gap-4 py-4"
+          >
+            <p
+              className="w-full md:w-2/5 text-xs sm:text-sm md:text-xl
+                    font-normal md:indent-20 lobster text-center md:text-left"
+            >
               I build clean, creative web experiences and evolving into a
               MERN-stack developer with AI-powered features.
             </p>
-            <p className="md:w-3/5 w-3/7 md:pr-40 flex justify-end text-[#ff3d00]">
+
+            <p
+              className="text-[#ff3d00] text-[18vw] sm:text-[14vw] md:text-[10vw]
+                    lobster leading-none"
+            >
               AM
             </p>
           </div>
-          <div className="h-2/7 text-[#ff3d00] w-full border-b-1 flex justify-start text-[12vw] lobster border-black ">
+
+          {/* Developer */}
+          <div
+            className="w-full border-b border-black flex justify-start
+                    text-[#ff3d00] text-[18vw] sm:text-[14vw] md:text-[10vw]
+                    lobster leading-none py-2"
+          >
             Developer
           </div>
-          <div className="h-1/7 w-full flex justify-between items-center text-[#ff3d00] p-3 lobster ">
+
+          {/* Footer */}
+          <div
+            className="w-full flex justify-between items-center text-[#ff3d00]
+                    p-3 lobster text-sm md:text-base"
+          >
             <p>(Hello)</p>
-            <p className="text-black">
-              <span className="mb-[2px] mr-[3px]">●</span>001/010
+            <p className="text-black flex items-center">
+              <span className="mr-2">●</span>001/010
             </p>
           </div>
         </div>
       </div>
+
       <div className="w-full lobster rounded-3xl bg-[#ff3d00] m-1 md:h-350 overflow-hidden ">
         <div className="w-full h-full pl-6 pr-6 text-white">
           <div className="h-1/27 w-full text-[5vw]"></div>
