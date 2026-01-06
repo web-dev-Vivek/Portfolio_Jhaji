@@ -49,7 +49,7 @@ function Process() {
               3. Wireframing & User Flows
             </h1>
             <p className="text-md md:w-2/4 h-2/4 para flex justify-center md:justify-start items-center">
-              Based on research, we design wireframes and map user flows —
+              Based on research, I design wireframes and map user flows —
               ensuring each step of the user journey is intuitive, purposeful,
               and aligned with your goals.
             </p>
@@ -60,7 +60,7 @@ function Process() {
               4. Visual Design & Interaction
             </h1>
             <p className="text-md md:w-2/4 h-2/4 para flex justify-center md:justify-start items-center">
-              We craft high-fidelity UI designs with brand-consistent visuals,
+              I craft high-fidelity UI designs with brand-consistent visuals,
               micro-interactions, and accessibility in mind — transforming
               wireframes into delightful experiences.
             </p>
@@ -71,7 +71,7 @@ function Process() {
               5. Implementation & Development
             </h1>
             <p className="text-md md:w-2/4 h-2/4 para flex justify-center md:justify-start items-center">
-              We work closely with your development team to ensure a smooth
+              I work closely with your development team to ensure a smooth
               implementation of the designs, providing all necessary assets,
               specifications, and support throughout the development process.
             </p>
@@ -82,7 +82,7 @@ function Process() {
               6. User Testing & Iteration
             </h1>
             <p className="text-md md:w-2/4 h-2/4 para flex justify-center md:justify-start items-center">
-              We gather feedback from real users to validate the design, uncover
+              I gather feedback from real users to validate the design, uncover
               usability issues, and iterate for improvement before final
               handoff.
             </p>
