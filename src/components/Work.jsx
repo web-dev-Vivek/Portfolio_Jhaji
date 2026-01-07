@@ -4,6 +4,8 @@ import IMG1 from "/IMG1.png";
 import IMG2 from "/IMG2.png";
 import IMG3 from "/IMG3.png";
 import IMG4 from "/IMG4.png";
+import Peek from "/Peek.jpg";
+import Peek1 from "/Peek1.jpg";
 
 function Work() {
   return (
@@ -28,51 +30,71 @@ function Work() {
           </p>
         </div>
       </div>
-      <div className="w-full rounded-3xl bg m-1 h-100 overflow-hidden flex flex-col gap-2 ">
-        <div className="flex justify-evenly md:p-5 items-center h-1/3 w-full p-2 bg-black text-white rounded-3xl">
-          <p className="w-4/7 flex justify-start text-2xl md:text-5xl lobster">
-            Artistic wings
-          </p>
-          <p className="w-2/7 flex justify-end text-[13px] md:text-lg">
-            E-commerce platform
-          </p>
-          <p className="w-1/12 rounded-3xl p-1 border-1 border-white flex group justify-center">
-            <img
-              src={Arrow}
-              alt="arrow"
-              className="h-4 w-4 md:group-hover:translate-x-7 group-hover:translate-x-1 transition-transform duration-500 "
-            />
-          </p>
+      <div className="w-full rounded-3xl bg m-1 h-100 relative   flex flex-col gap-2 ">
+        <div className="w-full relative h-1/3 group  rounded-3xl overflow-hidden ">
+          <div className="w-full h-full flex justify-between items-center p-5 z-90 rounded-3xl md:group-hover:transition-transform ease-out duration-500 absolute bg-black text-white top-0 md:group-hover:-translate-x-30">
+            <p className=" text-2xl md:text-5xl lobster">Artistic Wings</p>
+            <p className=" text-sm md:text-2xl lobster">Custom presents</p>
+            <a
+              href="https://theartisticwing.vercel.app/"
+              className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+            >
+              <img className="w-5 h-5" src={Arrow} alt="" />
+            </a>
+          </div>
+          <div className="w-full h-full z-88 rounded-3xl overflow-hidden md:group-hover:transition-transform ease-out duration-500 absolute top-0 bg-green-600 md:group-hover:-translate-x-20">
+            <img src={IMG1} alt="" />
+          </div>
+
+          <img
+            className="absolute bg-black text-white right-10 rounded-3xl z-87 h-32 rounded-l-none md:group-hover:translate-x-11 md:group-hover:transition-transform ease-out duration-600"
+            src={Peek}
+            alt=""
+          />
         </div>
-        <div className="flex justify-evenly md:p-5 items-center h-1/3 w-full p-2 bg-black text-white rounded-3xl">
-          <p className="w-4/7 flex justify-start text-2xl md:text-5xl lobster">
-            HR-51 Cafe
-          </p>
-          <p className="w-2/7 flex justify-end text-[13px] md:text-lg">
-            E-commerce platform
-          </p>
-          <p className="w-1/12 rounded-3xl p-1 border-1 border-white flex group justify-center">
-            <img
-              src={Arrow}
-              alt="arrow"
-              className="h-4 w-4 md:group-hover:translate-x-7 group-hover:translate-x-1 transition-transform duration-500"
-            />
-          </p>
+        <div className="w-full relative h-1/3 group  rounded-3xl overflow-hidden ">
+          <div className="w-full h-full flex justify-between items-center p-5 z-90 rounded-3xl md:group-hover:transition-transform ease-out duration-500 absolute bg-black text-white top-0 md:group-hover:-translate-x-30">
+            <p className=" text-2xl md:text-5xl lobster">Analytica</p>
+            <p className=" text-sm md:text-2xl lobster">Insight Developers</p>
+            <a
+              href="https://analytica-frontend.vercel.app/"
+              className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+            >
+              <img className="w-5 h-5" src={Arrow} alt="" />
+            </a>
+          </div>
+          <div className="w-full h-full z-88 rounded-3xl overflow-hidden md:group-hover:transition-transform ease-out duration-500 absolute top-0 bg-green-600 md:group-hover:-translate-x-20">
+            <img src={IMG3} alt="" />
+          </div>
+
+          <img
+            className="absolute bg-black text-white right-10 rounded-2xl z-87 h-32 rounded-l-none md:group-hover:translate-x-11 md:group-hover:transition-transform ease-out duration-600"
+            src={Peek}
+            alt=""
+          />
         </div>
-        <div className="flex justify-evenly md:p-5 items-center h-1/3 w-full p-2 bg-black text-white rounded-3xl">
-          <p className="w-4/7 flex justify-start text-2xl md:text-5xl lobster">
-            Analytica
-          </p>
-          <p className="w-2/7 flex justify-end text-[13px] md:text-lg">
-            Developer comparison platform
-          </p>
-          <p className="w-1/12 rounded-3xl p-1 border-1 border-white flex group justify-center">
-            <img
-              src={Arrow}
-              alt="arrow"
-              className="h-4 w-4 md:group-hover:translate-x-7 group-hover:translate-x-1 transition-transform duration-500"
-            />
-          </p>
+        <div className="w-full relative h-1/3 group  rounded-3xl overflow-hidden ">
+          <div className="w-full h-full flex justify-between items-center p-5 z-90 rounded-3xl md:group-hover:transition-transform ease-out duration-500 absolute bg-black text-white top-0 md:group-hover:-translate-x-30">
+            <p className=" text-2xl md:text-5xl lobster">Enter</p>
+            <p className=" text-sm md:text-2xl lobster">
+              Collaboration Platform
+            </p>
+            <a
+              href="https://enter-omega.vercel.app/"
+              className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+            >
+              <img className="w-5 h-5" src={Arrow} alt="" />
+            </a>
+          </div>
+          <div className="w-full h-full z-88 rounded-3xl overflow-hidden md:group-hover:transition-transform ease-out duration-500 absolute top-0 bg-green-600 md:group-hover:-translate-x-20">
+            <img src={IMG4} alt="" />
+          </div>
+
+          <img
+            className="absolute bg-black text-white right-10 rounded-2xl z-87 h-32 rounded-l-none md:group-hover:translate-x-11 md:group-hover:transition-transform ease-out duration-600"
+            src={Peek}
+            alt=""
+          />
         </div>
       </div>
       <div className="relative w-full m-2 overflow-hidden">
