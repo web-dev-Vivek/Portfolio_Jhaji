@@ -34,7 +34,7 @@ function Section01() {
 
           {/* AM Section */}
           <div
-            className="w-full border-b border-black flex flex-col md:flex-row
+            className="w-full border-b border-black flex
                     justify-between items-center gap-4 py-4"
           >
             <p
@@ -55,7 +55,7 @@ function Section01() {
 
           {/* Developer */}
           <div
-            className="w-full border-b border-black flex justify-start
+            className="w-full border-b border-black flex justify-end md:justify-start
                     text-[#ff3d00] text-[18vw] sm:text-[14vw] md:text-[10vw]
                     lobster leading-none py-2"
           >

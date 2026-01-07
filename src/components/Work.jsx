@@ -34,13 +34,15 @@ function Work() {
         <div className="w-full relative h-1/3 group  rounded-3xl overflow-hidden ">
           <div className="w-full h-full flex justify-between items-center p-5 z-90 rounded-3xl md:group-hover:transition-transform ease-out duration-500 absolute bg-black text-white top-0 md:group-hover:-translate-x-30">
             <p className=" text-2xl md:text-5xl lobster">Artistic Wings</p>
-            <p className=" text-sm md:text-2xl lobster">Custom presents</p>
-            <a
-              href="https://theartisticwing.vercel.app/"
-              className="flex md:hidden items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
-            >
-              <img className="w-5 h-5" src={Arrow} alt="" />
-            </a>
+            <div className="flex gap-2 items-center">
+              <p className=" text-sm md:text-2xl lobster">Custom presents</p>
+              <a
+                href="https://theartisticwing.vercel.app/"
+                className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+              >
+                <img className="w-5 h-5" src={Arrow} alt="" />
+              </a>
+            </div>
           </div>
           <div className="w-full h-full z-88 rounded-3xl overflow-hidden md:group-hover:transition-transform ease-out duration-500 absolute top-0 bg-green-600 md:group-hover:-translate-x-20">
             <img src={IMG1} alt="" />
@@ -55,13 +57,15 @@ function Work() {
         <div className="w-full relative h-1/3 group  rounded-3xl overflow-hidden ">
           <div className="w-full h-full flex justify-between items-center p-5 z-90 rounded-3xl md:group-hover:transition-transform ease-out duration-500 absolute bg-black text-white top-0 md:group-hover:-translate-x-30">
             <p className=" text-2xl md:text-5xl lobster">Analytica</p>
-            <p className=" text-sm md:text-2xl lobster">Insight Developers</p>
-            <a
-              href="https://analytica-frontend.vercel.app/"
-              className="flex md:hidden items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
-            >
-              <img className="w-5 h-5" src={Arrow} alt="" />
-            </a>
+            <div className="flex gap-2 items-center">
+              <p className=" text-sm md:text-2xl lobster">Insight Developers</p>
+              <a
+                href="https://analytica-frontend.vercel.app/"
+                className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+              >
+                <img className="w-5 h-5" src={Arrow} alt="" />
+              </a>
+            </div>
           </div>
           <div className="w-full h-full z-88 rounded-3xl overflow-hidden md:group-hover:transition-transform ease-out duration-500 absolute top-0 bg-green-600 md:group-hover:-translate-x-20">
             <img src={IMG3} alt="" />
@@ -76,15 +80,17 @@ function Work() {
         <div className="w-full relative h-1/3 group  rounded-3xl overflow-hidden ">
           <div className="w-full h-full flex justify-between items-center p-5 z-90 rounded-3xl md:group-hover:transition-transform ease-out duration-500 absolute bg-black text-white top-0 md:group-hover:-translate-x-30">
             <p className=" text-2xl md:text-5xl lobster">Enter</p>
-            <p className=" text-sm md:text-2xl lobster">
-              Collaboration Platform
-            </p>
-            <a
-              href="https://enter-omega.vercel.app/"
-              className="flex md:hidden items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
-            >
-              <img className="w-5 h-5" src={Arrow} alt="" />
-            </a>
+            <div className="flex gap-2 items-center">
+              <p className=" text-sm md:text-2xl lobster">
+                Collaboration Platform
+              </p>
+              <a
+                href="https://enter-omega.vercel.app/"
+                className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+              >
+                <img className="w-5 h-5" src={Arrow} alt="" />
+              </a>
+            </div>
           </div>
           <div className="w-full h-full z-88 rounded-3xl overflow-hidden md:group-hover:transition-transform ease-out duration-500 absolute top-0 bg-green-600 md:group-hover:-translate-x-20">
             <img src={IMG4} alt="" />
