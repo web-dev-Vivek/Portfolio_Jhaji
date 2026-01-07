@@ -37,7 +37,7 @@ function Work() {
             <p className=" text-sm md:text-2xl lobster">Custom presents</p>
             <a
               href="https://theartisticwing.vercel.app/"
-              className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+              className="flex md:hidden items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
             >
               <img className="w-5 h-5" src={Arrow} alt="" />
             </a>
@@ -58,7 +58,7 @@ function Work() {
             <p className=" text-sm md:text-2xl lobster">Insight Developers</p>
             <a
               href="https://analytica-frontend.vercel.app/"
-              className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+              className="flex md:hidden items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
             >
               <img className="w-5 h-5" src={Arrow} alt="" />
             </a>
@@ -81,7 +81,7 @@ function Work() {
             </p>
             <a
               href="https://enter-omega.vercel.app/"
-              className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
+              className="flex md:hidden items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
             >
               <img className="w-5 h-5" src={Arrow} alt="" />
             </a>
