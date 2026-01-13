@@ -88,7 +88,7 @@ function Contact() {
               href="mailto:progamervivek2020@gmail.com"
               target="_blank"
               className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
-                  gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
+                  gap-4 hover:md:w-6/9 overflow-hidden bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
             >
               <img src="/gmail.png" className="w-10 rounded-full" />
               <span className="lobster  text-sm md:text-xl text-black">
