@@ -56,11 +56,11 @@ function Work() {
         </div>
         <div className="w-full relative h-1/3 group  rounded-3xl overflow-hidden ">
           <div className="w-full h-full flex justify-between items-center p-5 z-90 rounded-3xl md:group-hover:transition-transform ease-out duration-500 absolute bg-black text-white top-0 md:group-hover:-translate-x-30">
-            <p className=" text-2xl md:text-5xl lobster">Analytica</p>
+            <p className=" text-2xl md:text-5xl lobster">Attirer</p>
             <div className="flex gap-2 items-center">
-              <p className=" text-sm md:text-2xl lobster">Insight Developers</p>
+              <p className=" text-sm md:text-2xl lobster">Creative dress combiation</p>
               <a
-                href="https://analytica-frontend.vercel.app/"
+                href="https://Attirer.vercel.app/"
                 className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
               >
                 <img className="w-5 h-5" src={Arrow} alt="" />
