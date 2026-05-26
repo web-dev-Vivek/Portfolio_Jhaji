@@ -39,7 +39,7 @@ function Section02() {
                 <p>1+</p>
               </div>
               <div className="h-1/4 flex justify-center items-center w-full text-2xl">
-                <p className="text-[#2835f8]">Year's experiences</p>{" "}
+                <p className="text-[#2835f8]">Year's experience</p>{" "}
               </div>
             </div>
             <div className="md:w-3/13 h-full md:block flex items-center justify-between mr-4 md:border-r-1 border-b-1 md:border-b-0 border-black ">
@@ -50,14 +50,14 @@ function Section02() {
                 <p className="text-[#2835f8]">Projects delivered</p>{" "}
               </div>
             </div>
-            <div className="md:w-3/13 h-full md:block flex items-center justify-between mr-4 ">
-              <div className="h-3/4 text-xl md:text-8xl w-full flex justify-center items-center ">
-                <p>5k+</p>
-              </div>
-              <div className="h-1/4 flex justify-center items-center w-full text-2xl">
-                <p className="text-[#2835f8]">Peoples use my product</p>{" "}
-              </div>
-            </div>
+             <div className="md:w-3/13 h-full md:block flex items-center justify-between mr-4 ">
+               <div className="h-3/4 text-xl md:text-8xl w-full flex justify-center items-center ">
+                 <p>3+</p>
+               </div>
+               <div className="h-1/4 flex justify-center items-center w-full text-2xl">
+                 <p className="text-[#2835f8]">Live products built</p>{" "}
+               </div>
+             </div>
           </div>
           <div className="h-1/7 text-[#2835f8] w-full border-b-1 md:border-b-0 flex justify-start text-[12vw] lobster border-black "></div>
           <div className="h-1/7 w-full flex justify-between items-center text-[#2835f8] p-3 lobster ">

@@ -41,8 +41,8 @@ function Section01() {
               className="w-full md:w-2/5 text-xs sm:text-sm md:text-xl
                     font-normal md:indent-20 lobster text-center md:text-left"
             >
-              I build clean, creative web experiences and evolving into a
-              MERN-stack developer with AI-powered features.
+              I build clean, creative web experiences and developing full-stack
+              capabilities with AI-integrated applications.
             </p>
 
             <p

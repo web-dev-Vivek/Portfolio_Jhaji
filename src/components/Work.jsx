@@ -79,13 +79,13 @@ function Work() {
         </div>
         <div className="w-full relative h-1/3 group  rounded-3xl overflow-hidden ">
           <div className="w-full h-full flex justify-between items-center p-5 z-90 rounded-3xl md:group-hover:transition-transform ease-out duration-500 absolute bg-black text-white top-0 md:group-hover:-translate-x-30">
-            <p className=" text-2xl md:text-5xl lobster">Enter</p>
+            <p className=" text-2xl md:text-5xl lobster">Skinshy</p>
             <div className="flex gap-2 items-center">
               <p className=" text-sm md:text-2xl lobster">
-                Collaboration Platform
+                Personalized Cosemtic Recommendation 
               </p>
               <a
-                href="https://enter-omega.vercel.app/"
+                href="https://Skinshy.vercel.app/"
                 className="flex items-center justify-center border-1 border-white bg-black px-2 py-1 rounded-full"
               >
                 <img className="w-5 h-5" src={Arrow} alt="" />
@@ -104,19 +104,7 @@ function Work() {
         </div>
       </div>
       <div className="relative w-full m-2 overflow-hidden">
-        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-5 bg-gradient-to-r from-[#f4e9e1] to-transparent" />
-        <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-5 bg-gradient-to-l from-[#f4e9e1] to-transparent" />
-
-        <div className="flex w-max animate-marquee gap-8">
-          <img src={IMG1} className="h-40 rounded-2xl w-auto object-cover" />
-          <img src={IMG2} className="h-40 rounded-2xl w-auto object-cover" />
-          <img src={IMG3} className="h-40 rounded-2xl w-auto object-cover" />
-          <img src={IMG4} className="h-40 rounded-2xl w-auto object-cover" />
-          <img src={IMG1} className="h-40 rounded-2xl w-auto object-cover" />
-          <img src={IMG2} className="h-40 rounded-2xl w-auto object-cover" />
-          <img src={IMG3} className="h-40 rounded-2xl w-auto object-cover" />
-          <img src={IMG4} className="h-40 rounded-2xl w-auto object-cover" />
-        </div>
+        
       </div>
     </div>
   );
