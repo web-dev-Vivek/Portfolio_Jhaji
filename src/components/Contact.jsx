@@ -49,6 +49,19 @@ function Contact() {
           />
 
           <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center gap-6">
+            
+            <a
+              href="/Vivek_Resume_2026-1.pdf"
+              download="Vivek_Resume_2026-1.pdf"
+              className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
+              gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
+            >
+              <img src="/resume.png" className="w-10 rounded-full" />
+              <span className="lobster  text-sm md:text-xl text-black">
+               CV
+              </span>
+            </a>
+
             <a
               href="https://www.linkedin.com/in/vivek-jha-17ba6a306/"
               target="_blank"
@@ -58,18 +71,6 @@ function Contact() {
               <img src="/images.png" className="w-10 rounded-full" />
               <span className="lobster  text-sm md:text-xl text-black">
                 @Vivek_Jha
-              </span>
-            </a>
-
-            <a
-              href="https://www.instagram.com/vocalist_vivek/"
-              target="_blank"
-              className="w-3/4 flex items-center justify-between border-2 border-dotted border-black
-              gap-4 hover:md:w-6/9 bg-white/80 hover:bg-yellow-300/50 transition px-6 py-3 rounded-2xl"
-            >
-              <img src="/insta.png" className="w-10 rounded-full" />
-              <span className="lobster  text-sm md:text-xl text-black">
-                @Vocalist_Vivek
               </span>
             </a>
 
